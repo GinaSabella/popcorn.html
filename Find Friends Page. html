@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include jQuery Mobile stylesheets -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<!-- Include the jQuery library -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+<!-- Include the jQuery Mobile library -->
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<!-- Homepage  HOW TO MAKE INPUT BOXES SHORTER?????? -->
+	<div data-role= "main" id="homepage" style="background-color:#5887A8;" </div>
+</head>
+
+		<div data-role="homepage">
+	  	<div data-role="header">
+   			 <h1>Find Friends!</h1>
+		 		<div class="ui-btn-left">
+					<a href="index.html" data-role="button" data-iconpos="text">Home</a>   			 		
+					<a href="index.html" data-role="button" data-iconpos="text">Friends List</a>
+			</div>
+
+  </div>
+
+<!-- This is where all the parts of the website go-->
+<div style="text-align: center" data-role="main" class="ui-content">
+	<body style="font-size: 17px">
+		<form action="action_page.php">
+		<strong>Search for a user by username:</strong><br>
+		<input type="text" name="Search for a user by username">
+		<br>
+		<p> OR </p>
+		<strong>Search for a user in your contact list:</strong><br>
+		<input type="text" name="Search for a user in your contact list">
+		<br>
+		</form>
+		<p> OR </p>
+		<input type="button" name="login" id="login" value="Connect using your phone number ">
+
+	</body>
+
+<!-- How do you connect the contacts in your phone to an app? -->
+
+</div>
+
