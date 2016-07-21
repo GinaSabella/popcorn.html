@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include jQuery Mobile stylesheets -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<!-- Include the jQuery library -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Include the jQuery Mobile library -->
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<style>
+    .login{
+
+      margin:0 auto;  
+
+    }
+
+		label{
+				font-size: 20px;
+				text-align: left;
+				font-color: white;
+
+			}
+    .google lable{
+      border-left: 1px solid rgba(155, 38, 23, 0.46);
+      color: #fff;
+        padding: 14px 10px;
+        float: left;
+        font-size: 17px;
+        width: 61%;
+      }
+    .google{
+      background: #cf4332;
+      margin: 30px 0;
+    }
+    .google a span{
+      background: url(http://preview.w3layouts.com/demos/flat-social-media-icons/web/images/icons.png) no-repeat -34px -31px;
+    background-size: 255%;
+    }
+    .google:hover{
+      background: #bb3828;
+    }
+    .clear{clear:both;}
+
+	</style>
+</head>
+
+<body>
+		<!-- First PAGE -->
+	<div data-role= "main" id="loginpage" style= "background-color:#2e004d;" </div>
+
+		<div data-role="loginpage">
+	  	<div data-role="header">
+   			 <h1>Login Here</h1>
+  </div>
+<!-- This is where all tge parts of the webiste go-->
+<div data-role="main" class="ui-content">
+
+   
+<div class="login" style= "width:500px; height:500px;">
+    	<label for="textinput-2"></label>
+			<input type="text" name="textinput-1" id="userName" placeholder="Username" value="">
+			<label for="textinput-2"></label>
+			<input type="text" name="textinput-2" id="Password" placeholder="Password" value="">
+
+     <input type="button" value="Enter">
+     <div class="google"><a href="#"><span> </span> <lable>Sign in with Google+</lable>
+        <div class="clear"></div></a>
+     </div>
+
+ 	</div>
+
+ 	<html lang="en">
+  <head>
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </head>
+  <body>
+    <script type="text/javascript" src="http://bpmaker.giffy.me/userdata/user/52/52212/99/parts.js"></script>
+    <div class="g-loginPage2" data-onsuccess="onloginPage" data-theme="dark"></div>
+    <script>
+      
+      function onSignIn(googleUser) {
+        // Useful data for your client-side scripts:
+        var profile = googleUser.getBasicProfile();
+        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+        console.log('Full Name: ' + profile.getName());
+        console.log('Given Name: ' + profile.getGivenName());
+        console.log('Family Name: ' + profile.getFamilyName());
+        console.log("Image URL: " + profile.getImageUrl());
+        console.log("Email: " + profile.getEmail());
+
+        // The ID token you need to pass to your backend:
+        var id_token = googleUser.getAuthResponse().id_token;
+        console.log("ID Token: " + id_token);
+      };
+    </script>
+  </body>
+</html>
+
+	</body>
+
+
+	</html>
