@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Include jQuery Mobile stylesheets -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<!-- Include the jQuery library -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<!-- Include the jQuery Mobile library -->
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<!-- Homepage -->
+	<div data-role= "main" id="homepage" style= "background-color:#203060"</div>
+	</head>
+
+	<body>
+		<script type="text/javascript" src="http://bpmaker.giffy.me/userdata/user/52/52212/99/parts.js"></script>
+		<div data-role="homepage">
+
+
+			<div data-role="header">
+				<h1 style="font-family: Decorative">Contacts</h1>
+				<div class="ui-btn-left">
+					<a href="index.html" data-role="button" data-iconpos="text" style="font-family: Decorative">Home</a>   			 		
+				</div>
+				<div class="ui-btn-right">
+					<a href="index.html" data-role="button" data-iconpos="text" style="font-family: Decorative">Friends List</a>
+				</div>
+			</div>
+
+			<div style="font-family: Decorative; color: white; font-size: 20px" data-role="main" class="ui-content">
+				<center>
+				<table>
+				<tr>
+					<td><h2>A</h2></td>
+
+				</tr>
+				<tr>
+					<td><p>Albert</p></td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-009-8264</td>
+				</tr>
+				<tr>
+					<td><p>Alex</p></td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-837-1278</td>
+				</tr>
+					<td><p>Arisha</p><td>
+				<tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">646-839-5242</td>
+				</tr>
+					<td><h2>B</h2><td>
+				</tr>
+					<td><p>Bianca</p><td>
+				<tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-400-3890</td>
+				</tr>
+					<td><p>Brian</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">646-987-6417</td>
+				</tr>
+					<td><h2>D</h2><td>
+				<tr>
+					<td><p>Daniella</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">917-348-0198</td>
+				</tr>
+					<td><p>David</p><td>
+				<tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-480-9641</td>
+				</tr>
+					<td><h2>F</h2><td>
+				</tr>
+					<td><p>Freddy</p><td>
+				<tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">646-593-6692</td>
+				</tr>
+					<td><h2>H</h2><td>
+				</tr>
+				<tr>
+					<td><p>Heather</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-000-8932</td>
+				</tr>
+				<tr>
+					<td><h2>J</h2><td>
+				</tr>
+				<tr>
+					<td><p>Jason</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">917-993-7384</td>
+				</tr>
+				<tr>
+					<td><p>Jackie</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-204-1339</td>
+				</tr>
+				<tr>
+					<td><p>Jennifer</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-009-8264</td>
+				</tr>
+				<tr>
+					<td><h2>M</h2><td>
+				</tr>
+				<tr>
+					<td><p>Mariam</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">917-992-5555</td>
+				</tr>
+				<tr>
+					<td><p>Marissa</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">646-822-4592</td>
+				</tr>
+				<tr>
+					<td><p>Matthew</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-820-1246</td>
+				</tr>
+				<tr>
+					<td><h2>N</h2><td>
+				</tr>
+				<tr>
+					<td><p>Nathan</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-348-0198</td>
+				</tr>
+				<tr>
+					<td><h2>S</h2><td>
+				</tr>
+				<tr>
+					<td><p>Sammy</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">646-789-4780</td>
+				</tr>
+				<tr>
+					<td><p>Sheldon</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">646-379-0285</td>
+				</tr>
+				<tr>
+					<td><h2>T</h2><td>
+				</tr>
+				<tr>
+					<td><p>Toni</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-938-5253</td>
+				</tr>
+				<tr>
+					<td><p>Tiffany</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">347-072-3374</td>
+				</tr>
+				<tr>
+					<td><h2>V</h2><td>
+				</tr>
+				<tr>
+					<td><p>Valerie</p><td>
+				</tr>
+				<tr>
+					<td style="color:lightgrey; font-size: 15px">917-251-4404</td>
+				</tr>
+				</table>
+				</center>
+			</div>
+		</div>
+	</body>
+
+</html>
