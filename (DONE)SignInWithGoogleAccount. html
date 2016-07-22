@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Include jQuery Mobile stylesheets -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<!-- Include the jQuery library -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<!-- Include the jQuery Mobile library -->
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<!-- Homepage -->
+	<div data-role= "main" id="homepage" style= "background-color:#203060"</div>
+
+	</head>
+
+	<body>
+		<script type="text/javascript" src="http://bpmaker.giffy.me/userdata/user/52/52212/99/parts.js"></script>
+		<center>
+		<div data-role="homepage">
+
+
+		  	<div data-role="header">
+				<h1>Sign in With Your Google Account</h1>
+		 		<div class="ui-btn-left">
+					<a href="index.html" data-role="button" data-iconpos="text">Home</a>   			 		
+				</div>
+				<div class="ui-btn-right">
+					<a href="index.html" data-role="button" data-iconpos="text">Friends List</a>
+				</div>
+			</div>
+
+			<!-- This is where all the parts of the website go-->
+			<div class="login" style= "width:400px; height: 500px">
+				<label for="textinput-2"></label>
+					<input type="text" name="textinput-1" id="userName" placeholder="Username" value="">
+					<label for="textinput-2"></label>
+					<input type="text" name="textinput-2" id="Password" placeholder="Password" value="">
+				<input type="button" name="login" id="login" value="Sign In">
+			</div>
+		</div>
+		</style>
+	</body>
+</html>
