@@ -15,6 +15,19 @@
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 	<style>
+
+  h1{
+
+      font-family: Decorative;
+
+  }
+
+  h3{
+  
+  text-align: center;
+  text-shadow: none;
+
+  }
     .login{
 
       margin:0 auto;  
@@ -26,7 +39,9 @@
 				text-align: left;
 				font-color: white;
 
+
 			}
+
     .google lable{
       border-left: 1px solid rgba(155, 38, 23, 0.46);
       color: #fff;
@@ -49,18 +64,23 @@
     .clear{clear:both;}
 
 	</style>
+
 </head>
 
 <body>
+
+
 		<!-- First PAGE -->
-	<div data-role= "main" id="loginpage" style= "background-color:#2e004d;" </div>
+	<div data-role= "main" id="loginpage" style= "background-color: #203060;">
 
 		<div data-role="loginpage">
 	  	<div data-role="header">
-   			 <h1>Login Here</h1>
+   			 <h1>Welcome to Popcorn</h1>
   </div>
 <!-- This is where all tge parts of the webiste go-->
 <div data-role="main" class="ui-content">
+
+  <h3 style="color:white"> New to Popcorn? <a href="url" onclick= "window.location= 'SignInWithGoogleAccount.html'"; >Sign Up! </a></h3>
 
    
 <div class="login" style= "width:500px; height:500px;">
@@ -69,8 +89,10 @@
 			<label for="textinput-2"></label>
 			<input type="text" name="textinput-2" id="Password" placeholder="Password" value="">
 
-     <input type="button" value="Enter">
-     <div class="google"><a href="#"><span> </span> <lable>Sign in with Google+</lable>
+
+     <input type="button" value="Login">
+
+     <div class="google"><a href="<a href="onclick= "window.location= 'SignInWithGoogleAccount.html'>"> <span> </span> <lable>Sign in with Google+</lable>
         <div class="clear"></div></a>
      </div>
 
@@ -85,6 +107,7 @@
   <body>
     <script type="text/javascript" src="http://bpmaker.giffy.me/userdata/user/52/52212/99/parts.js"></script>
     <div class="g-loginPage2" data-onsuccess="onloginPage" data-theme="dark"></div>
+  </div>
     <script>
       
       function onSignIn(googleUser) {
