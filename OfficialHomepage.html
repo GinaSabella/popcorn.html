@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Include jQuery Mobile stylesheets -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<!-- Include the jQuery library -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<!-- Include the jQuery Mobile library -->
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<!-- Homepage -->
+	<div data-role= "main" id="homepage" style= "background-color:#203060"</div>
+
+	<style>
+		li {
+		    display: inline;
+		}
+	</style>
+
+
+	</head>
+
+	<body>
+		<div data-role="homepage">
+	
+
+			<div data-role="header">
+				<h1></h1>
+				<div class="ui-btn-left">
+					<a href="" onclick= "window.location= '(DONE)Friendslist.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Friends List</a>
+					<a href="" onclick= "window.location= '(DONE)FindFriends.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Find Friends</a>
+				</div>
+				<div class="ui-btn-right">
+					<a href=""onclick= "window.location= 'ProfilePage.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">My Profile</a>
+					<a href=""onclick= "window.location= 'loginpage.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Log Out</a>
+				</div>
+			</div>
+
+
+			<!-- This is where all the parts of the website go! -->
+			<div data-role="main" class="ui-content">
+				<h2 style="color: white; font-family: Decorative">Continue Watching</h2>
+					<!-- Continue Watching Videos -->
+					<li><iframe width="370" height="300" src="https://www.youtube.com/embed/J8x_s9OFEpk" frameborder="0" allowfullscreen></iframe></li>
+					<li><iframe width="370" height="300" src="https://www.youtube.com/embed/nLehzC3d1LY" frameborder="0" allowfullscreen></iframe></li>
+					<li><iframe width="370" height="300" src="https://www.youtube.com/embed/1b24wqhy0Zo" frameborder="0" allowfullscreen></iframe></li>			
+				</ul>
+
+		   		<h2 style="color: white; font-family: Decorative">Recommended</h2>
+					<!-- Recommended Videos -->
+					<iframe width="370" height="300" src="https://www.youtube.com/embed/exUFpSFblaw" frameborder="0" allowfullscreen></iframe>
+					<iframe width="370" height="300" src="https://www.youtube.com/embed/ZL0ZBr_lOE4" frameborder="0" allowfullscreen></iframe>
+					<iframe width="370" height="300" src="https://www.youtube.com/embed/r4Mfmd5gBGw" frameborder="0" allowfullscreen></iframe>
+
+
+				<!-- Next button ALREADY LINKED-->
+				<a href="index.html" onclick= "window.location= 'HomepageContinueWatchingNextVideos.html'" data-role="button" data-icon="arrow-r" style="position:absolute; TOP:270px; LEFT:1170px; WIDTH:1px"></a> 
+
+				<!-- Next button -->
+				<a href="index.html" onclick= "window.location= 'HomepageRecommendedNextVideos.html'" data-role="button" data-icon="arrow-r" style="position:absolute; TOP:650px; LEFT:1170px; WIDTH:1px"></a>  
+			</div>
+		</div>
+	</body>
+</html>
