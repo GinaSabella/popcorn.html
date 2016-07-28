@@ -17,7 +17,6 @@
 		}
 	</style>
 
-
 	</head>
 
 	<body>
@@ -25,13 +24,11 @@
 	
 
 			<div data-role="header">
-				<h1></h1>
-				<div class="ui-btn-left">
+					<h1></h1>
+				<div id="header" class="ui-btn-left">
 					<a href="" onclick= "window.location= '(DONE)Friendslist.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Friends List</a>
 					<a href="" onclick= "window.location= 'FindFriends.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Find Friends</a>
-					<!-- LINK THE FINDFRIENDS PAGE TO THE ABOVE BUTTON -->
-
-
+					<!-- LINK THE FINDFRIENDS PAGE TO THE ABOVE BUTTON -->					
 				</div>
 				<div class="ui-btn-right">
 					<a href=""onclick= "window.location= 'ProfilePage.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">My Profile</a>
@@ -43,24 +40,28 @@
 			<!-- This is where all the parts of the website go! -->
 			<div data-role="main" class="ui-content">
 				<h2 style="color: white; font-family: Decorative">Continue Watching</h2>
+					<center>
 					<!-- Continue Watching Videos -->
-					<li><iframe width="370" height="300" src="https://www.youtube.com/embed/J8x_s9OFEpk" frameborder="0" allowfullscreen></iframe></li>
-					<li><iframe width="370" height="300" src="https://www.youtube.com/embed/nLehzC3d1LY" frameborder="0" allowfullscreen></iframe></li>
-					<li><iframe width="370" height="300" src="https://www.youtube.com/embed/1b24wqhy0Zo" frameborder="0" allowfullscreen></iframe></li>			
+					<li><iframe width="370" height="300" src="https://www.youtube.com/embed/iySlSq7Cpbk?list=PLQfY6PU3YBfx8ExD5VJRjIfA3YUSoog6z" frameborder="0" allowfullscreen></iframe></li>
+					<li><iframe width="370" height="300" src="https://www.youtube.com/embed/bS5P_LAqiVg" frameborder="0" allowfullscreen></iframe></li>
+					<li><iframe width="370" height="300" src="https://www.youtube.com/embed/aNUYGRn3W9Q?list=PLQfY6PU3YBfx8ExD5VJRjIfA3YUSoog6z" frameborder="0" allowfullscreen></iframe></li>			
+					</center>
 				</ul>
 
 		   		<h2 style="color: white; font-family: Decorative">Recommended</h2>
+		   			<center>
 					<!-- Recommended Videos -->
-					<iframe width="370" height="300" src="https://www.youtube.com/embed/exUFpSFblaw" frameborder="0" allowfullscreen></iframe>
-					<iframe width="370" height="300" src="https://www.youtube.com/embed/ZL0ZBr_lOE4" frameborder="0" allowfullscreen></iframe>
-					<iframe width="370" height="300" src="https://www.youtube.com/embed/r4Mfmd5gBGw" frameborder="0" allowfullscreen></iframe>
+					<iframe width="370" height="300" src="https://www.youtube.com/embed/iEt_l125COA" frameborder="0" allowfullscreen></iframe>
+					<iframe width="370" height="300" src="https://www.youtube.com/embed/Qku4jtvtay8" frameborder="0" allowfullscreen></iframe>
+					<iframe width="370" height="300" src="https://www.youtube.com/embed/-Rsub63Ml2o" frameborder="0" allowfullscreen></iframe>
+					</center>
 
 
-				<!-- Next button ALREADY LINKED-->
-				<a href="index.html" onclick= "window.location= 'HomepageContinueWatchingNextVideos.html'" data-role="button" data-icon="arrow-r" style="position:absolute; TOP:270px; LEFT:1170px; WIDTH:1px"></a> 
-
-				<!-- Next button -->
-				<a href="index.html" onclick= "window.location= 'HomepageRecommendedNextVideos.html'" data-role="button" data-icon="arrow-r" style="position:absolute; TOP:650px; LEFT:1170px; WIDTH:1px"></a>  
+				<!-- Previous button -->
+				<a href="index.html" data-role="button" data-icon="arrow-l" onclick= "window.location= 'HomepageRecommendedNextVideos.html'" style="position:absolute; TOP:250px; LEFT:10px; WIDTH:1px"></a>					
+ 
+				<!-- Previous button -->
+				<a href="index.html" data-role="button" data-icon="arrow-l" onclick= "window.location= 'HomepageContinueWatchingNextVideos.html'" style="position:absolute; TOP:650px; LEFT:10px; WIDTH:1px"></a>
 			</div>
 		</div>
 	</body>
