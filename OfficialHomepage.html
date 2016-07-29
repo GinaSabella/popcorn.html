@@ -15,7 +15,11 @@
 		li {
 		    display: inline;
 		}
-	</style>
+
+		#popcorn-footer {
+        padding-left: 1150px
+    }
+  	</style>
 
 
 	</head>
@@ -25,17 +29,24 @@
 	
 
 			<div data-role="header">
-				<h1></h1>
+				<h1 style="font-family: Decorative">Welcome To Popcorn!</h1>
 				<div class="ui-btn-left">
 					<a href="" onclick= "window.location= '(DONE)Friendslist.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Friends List</a>
-					<a href="" onclick= "window.location= 'FindFriends.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Find Friends</a>
-					<!-- LINK THE FINDFRIENDS PAGE TO THE ABOVE BUTTON -->
+					<!-- LINK THE FRIENDSLIST PAGE TO THE ABOVE BUTTON -->
+
+
+					<a href="" onclick= "window.location= '(DONE)FindFriendsPage.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Find Friends</a>
 
 
 				</div>
 				<div class="ui-btn-right">
-					<a href=""onclick= "window.location= 'ProfilePage.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">My Profile</a>
-					<a href=""onclick= "window.location= 'loginpage.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Log Out</a>
+					<a href="" onclick= "window.location= 'ProfilePage.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">My Profile</a>
+ 					<!-- LINK THE MY PROFILE PAGE TO THE ABOVE BUTTON -->
+
+
+					<a href=""onclick= "window.location= 'loginPage.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Log Out</a>
+					<!-- LINK THE LOGIN PAGE TO THE ABOVE BUTTON -->
+
 				</div>
 			</div>
 
@@ -63,5 +74,9 @@
 				<a href="index.html" onclick= "window.location= 'HomepageRecommendedNextVideos.html'" data-role="button" data-icon="arrow-r" style="position:absolute; TOP:650px; LEFT:1170px; WIDTH:1px"></a>  
 			</div>
 		</div>
+
+				<input id="popcorn-footer" type="image" src="http://image.prntscr.com/image/e8798d4ee90947b28976d63b846803fa.png"
+width="200">
+
 	</body>
 </html>
