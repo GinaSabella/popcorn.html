@@ -10,37 +10,46 @@
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<!-- Homepage -->
 	<div data-role= "main" id="homepage" style= "background-color:#203060"</div>
+	
+	<style>
+		#popcorn-footer {
+      	padding-left: 1150px
+    }
+  	</style>
 
 	</head>
-
 
 	<body>
 		<script type="text/javascript" src="http://bpmaker.giffy.me/userdata/user/52/52212/99/parts.js"></script>
 		<center>
 		<div data-role="homepage">
-  	
 
-  			<div data-role="header">
+
+			<div data-role="header">
 				<h1></h1>
-		 		<div class="ui-btn-left">
-					<a href="index.html" data-role="button" data-iconpos="text" style="font-family: Decorative">Home</a>   			 		
+				<div class="ui-btn-left">
+					<a href="index.html" onclick= "window.location= 'OfficialHomepage.html'" data-role="button" data-iconpos="text" style="font-family: Decorative">Home</a>
 				</div>
 				<div class="ui-btn-right">
-					<a href="index.html" data-role="button" data-iconpos="text" style="font-family: Decorative">Friends List</a>
+					<a href="index.html" data-role="button"  onclick= "window.location= '(DONE)FriendsList.html'"data-iconpos="text" style="font-family: Decorative">Friends List</a>
 				</div>
 			</div>
-
 			<!-- This is where all the parts of the website go-->
 			<div style="font-family: Decorative; color: white; width:500px; height:500px" data-role="main" class="ui-content">
 				<form style="font-size: 17px" action="action_page.php">
-					Search for a user by username:<br>
+			Search for a user by username:<br>
 					<input type="text" name="Search for a user by username">
 					<br>
+			Search for a user in your contact list:
+					<a href="index.html" data-role="button" onclick= "window.location= '(DONE)ContactsFromYourPhone.html'" data-iconpos="text" style="font-family: Decorative">Connect using your phone number</a>
 				</form>
-				Search for a user in your contact list:
-					<input type="button" name="login" id="login" style="font-family: Decorative" value="Connect using your phone number ">
+	
+
 			</div>
 		</div>
-		</style>
+		</center>
+
+		<input id="popcorn-footer" type="image" src="http://image.prntscr.com/image/e8798d4ee90947b28976d63b846803fa.png"
+width="200">
 	</body>
 </html>
