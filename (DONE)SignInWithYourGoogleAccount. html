@@ -31,14 +31,7 @@
 		<center>
 		<div data-role="homepage">
 
-		 		<div class="ui-btn-left">
-					<input type="button" value="Home" onclick= "window.location='(DONE)Homepage.html'"</a>   			 		
-				</div>
-				<div class="ui-btn-right">
-					<a href="" onclick data-role="button" data-iconpos="text">Friends List</a>
-				</div>
-
-				<input type="image" src="http://image.prntscr.com/image/8166a9045125472f8c727c427d28e98b.png" value="enter" onclick= "window.location= 'loginpage.html'" width="150">
+				<input type="image" src="http://image.prntscr.com/image/8166a9045125472f8c727c427d28e98b.png" value="enter" onclick= "window.location= '(DONE)Homepage.html'" width="150">
 
 			<!-- This is where all the parts of the website go-->
 			<div class="login" style= "width:400px; height: 500px">
@@ -48,7 +41,6 @@
 					<input type="text" name="textinput-2" id="Password" placeholder="Password" value="">
 				<input type="button" name="login" id="login" value="Sign In">
 			</div>
-		</div>
 		</style>
 		<input id="popcorn-footer" type="image" src="http://image.prntscr.com/image/e8798d4ee90947b28976d63b846803fa.png"
 width="200">
